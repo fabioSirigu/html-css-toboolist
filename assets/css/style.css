@@ -38,20 +38,21 @@ body {
 /* /header */
 
 /* main */
-
-.container {
+.add_container {
       width: 80%;
       background-color: white;
       margin: auto;
       margin-top: 40px;
       padding-left: 50px;
       padding-top: 10px;
+      border-top-left-radius:5px;
+      border-top-right-radius:5px;
 }
 
 .button {
       padding-bottom: 10px;
-      border-bottom: 1px solid lightgray;
 }
+
 button {
       border-radius: 5px;
       border: none;
@@ -66,9 +67,21 @@ button:hover {
 
 /* /button section */
 
+/* section info */
+.container {
+      width: 80%;
+      background-color: white;
+      margin: auto;
+      margin-top: 2px;
+      padding-left: 50px;
+      padding-top: 10px;
+      border-bottom-left-radius:5px;
+      border-bottom-right-radius:5px; 
+}
 
 .container_row {
       padding-top: 20px;
+      padding-bottom: 20px;
 }
 #arrow_icon {
       width: 15px;
@@ -128,4 +141,29 @@ button:hover {
 
 .recruiting {
       background-color: var(--recruiting);
+}
+
+.mobile {
+      background-color: var(--mobile);
+}
+
+.website {
+      background-color: var(--website);
+}
+
+.sales {
+      background-color: var(--sales);
+}
+
+/* footer */
+
+#site_footer {
+      width: 100%;
+      background-color: white;
+      margin-top: 40px;
+      text-align: center;
+      vertical-align: middle;
+      padding: 20px;
+      font-weight: 700;
+      font-style: italic;
 }
