@@ -11,8 +11,8 @@ body {
 :root{
       --button_task: #45ABEA;
       --editorial: #47ADF1;
-      --goal: #64C0A9;
-      --recruiting: #9C72E4;
+      --recruiting: #64C0A9;
+      --goal: #9C72E4;
       --sales: #B0C926;
       --website: #D863A1;
       --mobile: #F29E33;
@@ -76,11 +76,28 @@ button:hover {
 
 .row {
       margin-top: 10px;
+      font-size: 15px;
+      font-weight: 600;
 }
 .title_row {
       font-weight: 600;
+      font-size: 18px;
+      display: inline-block;
 }
 
+.x_marks {
+      border: 1px solid red;
+      border-radius: 50%;
+      display: inline-block;
+      text-align: center;
+      width: 20px;
+      height: 20px;
+      font-size: 10px;
+      line-height: 15px;
+      padding: 2px;
+      color: red;
+      margin-right: 10px;
+}
 .check {
       border: 1px solid green;
       border-radius: 50%;
@@ -92,13 +109,23 @@ button:hover {
       line-height: 15px;
       padding: 2px;
       color: green;
+      margin-right: 10px;
 }
-
-.editorial {
-      background-color: var(--editorial);
+.badge {
       font-size: 10px;
+      font-weight: 600;
       padding: 5px 10px;
       color: white;
       border-radius: 10px;
-      
+}
+.editorial {
+      background-color: var(--editorial);
+}
+
+.goals {
+      background-color: var(--goal);
+}
+
+.recruiting {
+      background-color: var(--recruiting);
 }
