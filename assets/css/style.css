@@ -16,7 +16,7 @@ body {
       --sales: #B0C926;
       --website: #D863A1;
       --mobile: #F29E33;
-      }
+}
 
 /* header */
 #site_header {
@@ -65,7 +65,7 @@ button:hover {
       background-color: var(--button_task);
 }
 
-/* /button section */
+/* /container button section */
 
 /* section info */
 .container {
