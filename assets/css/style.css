@@ -44,11 +44,13 @@ body {
       background-color: white;
       margin: auto;
       margin-top: 40px;
+      padding-left: 50px;
+      padding-top: 10px;
 }
 
 .button {
-      padding:10px 50px ;
-      
+      padding-bottom: 10px;
+      border-bottom: 1px solid lightgray;
 }
 button {
       border-radius: 5px;
@@ -60,4 +62,43 @@ button {
 button:hover {
       color: white;
       background-color: var(--button_task);
+}
+
+/* /button section */
+
+
+.container_row {
+      padding-top: 20px;
+}
+#arrow_icon {
+      width: 15px;
+}
+
+.row {
+      margin-top: 10px;
+}
+.title_row {
+      font-weight: 600;
+}
+
+.check {
+      border: 1px solid green;
+      border-radius: 50%;
+      display: inline-block;
+      text-align: center;
+      width: 20px;
+      height: 20px;
+      font-size: 10px;
+      line-height: 15px;
+      padding: 2px;
+      color: green;
+}
+
+.editorial {
+      background-color: var(--editorial);
+      font-size: 10px;
+      padding: 5px 10px;
+      color: white;
+      border-radius: 10px;
+      
 }
